@@ -1,0 +1,99 @@
+:root {
+    --global-color: #fff;
+    --global-background: rgba(0, 0, 0, 0.5);
+    --login-color1: #198495;
+    --login-color2: #1a6671;
+    --login-color2: #00ddff;
+    --login-color3: #007bff;
+    --login-color4: #00ddff;
+    --placeholder-color: rgba(255, 255, 255, 0.3);
+    --signup-color: #04fdbb;
+    --followPwd: grey;
+    --linkedIn-color: #0c87a5;
+    --body-background-color: #1d2026;
+    --create-hover: goldenrod;
+    --black: #000;
+    --white: #fff;
+  }
+  .signup__page{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup__page .form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup__page form {
+    width: 400px;
+    height: auto;
+    margin-top: 40px;
+    background-color: var(--global-background);
+    border: 1px solid var(--login-color1);
+  }
+  .signup__page form h1 {
+    font-size: 33px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: var(--login-color1);
+  }
+  .signup__page form p{
+    color: crimson;
+    margin-top: -20px;
+    margin-bottom: 17px;
+  }
+  .signup__page form .registerBtn {
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    background-color: var(--login-color1);
+    transition: all 0.4s ease;
+  }
+  .signup__page form .registerBtn:hover {
+    cursor: pointer;
+    background-color: var(--login-color4);
+  }
+  .signup__page form .form-row .form-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  .signup__page form .form-row .form-group .errors_created{
+    margin-top: -10px;
+    margin-bottom: 14px;
+    color: crimson;
+  }
+  .signup__page form .form-row .form-group label {
+    font-size: 19px;
+  }
+  .signup__page form .form-row .form-group input,
+  .signup__page form .form-row .form-group select {
+    width: 90%;
+    height: 27px;
+    margin-bottom: 16px;
+    background-color: var(--black);
+    padding-left: 7px;
+    border: 1px solid var(--login-color1);
+    outline: none;
+    border-bottom: 2px solid var(--login-color1);
+    color: var(--followPwd);
+    font-size: 1.1rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  .signup__page form label {
+    color: #fff;
+  }
+  .signup__page form input::placeholder{
+    color: grey;
+    font-size: 14px;
+  }
+  

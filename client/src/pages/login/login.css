@@ -1,0 +1,162 @@
+:root {
+    --global-color: #fff;
+    --global-background: rgba(0, 0, 0, 0.5);
+    --login-color1: #00ddff;
+    --login-color2: #00ddff;
+    --placeholder-color: rgba(255, 255, 255, 0.3);
+    --signup-color: #00ddff;
+    --followPwd: #ccc;
+    --linkedIn-color: #0c87a5;
+    --body-background-color: #1d2026;
+    --black: #000;
+    --white: #fff;
+  }
+
+    .container {
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+
+    .Login {
+      width: 350px;
+      min-height: 500px;
+      height: auto;
+      background-color: var(--global-background);
+      padding: 10px;
+      border: 1px solid #00ddff
+      
+    }
+    .Login h1 {
+      width: 100%;
+      text-align: center;
+      color: var(--followPwd);
+      font-family: "Chivo", sans-serif;
+    }
+    .Login .log {
+      margin-top: 10px;
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .Login .log form {
+      width: 100%;
+      text-align: center;
+      transform: translateX(-5%);
+    }
+    .Login .log form label i {
+      transform: translate(115%, -3%);
+      font-size: 1.1rem;
+      background-color: var(--login-color2);
+      color: var(--black);
+      padding: 10px;
+    }
+    .Login .log form label .fa-lock {
+      transform: translate(115%, -7%);
+    }
+    .Login .log form input {
+      width: 80%;
+      height: 40px;
+      margin-top: 20px;
+      background-color: var(--black);
+      padding-left: 10px;
+      border: 1px solid var(--login-color1);
+      outline: none;
+      border: 2px solid #00ddff;
+      color: var(--followPwd);
+      font-size: 1.1rem;
+      font-family: "Montserrat", sans-serif;
+    }
+    .Login .log form input::placeholder {
+      color: var(--placeholder-color);
+    }
+    .Login .log form .forgot {
+      width: 100%;
+      margin-top: 10px;
+      padding-right: 20px;
+      text-align: right;
+    }
+    .Login .log form .forgot a {
+      text-decoration: none;
+      color: var(--followPwd);
+      font-size: 1rem;
+    }
+    .Login .log form .forgot div {
+      width: fit-content;
+      float: left;
+      display: flex;
+    }
+    .Login .log form .forgot div span {
+      transform: translateX(79%);
+    }
+    
+    .Login .log form .forgot .checkMe {
+      cursor: pointer;
+      transform: scale(1.2);
+      float: left;
+      width: fit-content;
+      position: absolute;
+      top: 100px;
+      left: 55px;
+    }
+    .Login .log form .password {
+      font-size: 1.5rem;
+    }
+    .Login .log form .password::placeholder {
+      font-size: 1.2rem;
+    }
+    .Login .log form .loginBtn {
+      cursor: pointer;
+      transform: translateX(7%);
+      border: none;
+      background-color: #00ddff;
+      border-radius: 50px;
+      color: var(--global-color);
+      font-size: 1.5rem;
+      padding-left: 0;
+      margin-top: 30px;
+      transition: all 0.4s ease;
+    }
+    .Login .log form .loginBtn:hover {
+      background-color: rgb(6, 50, 68);
+    }
+    .Login h3 {
+      width: 100%;
+      text-align: right;
+      color: var(--login-color1);
+      margin-top: 30px;
+      padding-right: 40px;
+    }
+    .Login .sin {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .Login .LetSin {
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-family: "Ubuntu", sans-serif;
+      font-style: italic;
+      color: #00ddff;
+      transition: all 0.4s ease;
+    }
+    .Login .LetSin:hover {
+      color:skyblue;
+    }
+    .Login .followUs {
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .followUs h4 {
+      color: var(--followPwd);
+    }
+    .followUs a i {
+      font-size: 2rem;
+      color: var(--linkedIn-color);
+    }
+    

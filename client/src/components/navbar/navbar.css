@@ -1,0 +1,72 @@
+.jedr__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.jedr__navbar .jedr-right-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jedr__navbar .jedr__navbar-links_logo h1{
+    margin-right: 4rem;
+    color: #fff;
+}
+
+.jedr__navbar .jedr-right-links .jedr__navbar-links_container{
+    margin-right: 4rem;
+}
+
+.jedr__navbar .jedr-right-links .jedr__navbar-links_container .nav__links_route{
+    color: #fff;
+    margin-right:2rem;
+    font-size: 1.3rem;
+    transition: all 0.4s ease;
+}
+
+.jedr__navbar .jedr-right-links .jedr__navbar-links_container .nav__links_route:hover{
+    color: #ff7200;
+}
+
+
+.jedr__navbar .login_and_signup .jedr_login_btn{
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.jedr__navbar .login_and_signup .jedr_signup_btn{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #ff7200;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.jedr__navbar-menu{display: none;}
+
+
+@media screem and (max-width: 1024px) {
+
+    .jedr__navbar-menu{
+        display: block;
+        
+    }
+}
